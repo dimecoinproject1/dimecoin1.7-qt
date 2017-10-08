@@ -1,0 +1,1 @@
+# dimecoin1.7-qt
