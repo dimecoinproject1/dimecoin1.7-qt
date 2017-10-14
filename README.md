@@ -147,10 +147,15 @@ You will find 70 or so nodes to use in your dimecoin.conf, as such:
 > 
 > addnode=111.92.57.239
 
+
+You can also visit [www.dimecoin.rocks](http://www.dimecoin.rocks/) where there is a copy of peers.dat from a fully synched wallet, which may help you connect to more nodes, as the information in peers.dat will already have a list of reliable connections to seek out.
+
+
 -----
 
 Setgenerate
 --------------------
+
 
 I left **setgenerate** in as an rpc call, as it possibly useful. However, this means the qt will alays get flagged for bitcoin miner. It is a false positive, and evryone should know that by now.
 
@@ -182,20 +187,6 @@ bootstrap
  -----
  
 
-Addnodes
---------------------
-
-Go to https://chainz.cryptoid.info/dime/#!network
-
-You will find 70 or so nodes to use in your dimecoin.conf, as such:
-
-> addnode=111.92.56.73
-> 
-> addnode=111.92.57.239
-
-
-
-You can also visit [www.dimecoin.rocks](http://www.dimecoin.rocks/) where there is a copy of peers.dat from a fully synched wallet, which may help you connect to more nodes, as the information in peers.dat will already have a list of reliable connections to seek out.
 
 
 
